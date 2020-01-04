@@ -1,0 +1,1 @@
+void print(int b[],boolean c,int a){putFloatLn(b[2]);} void main () {int a[5];a[2]=1;print(a,true,a[2]);}

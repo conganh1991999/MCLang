@@ -1,0 +1,9 @@
+
+        void main(){
+            int alpha[5]; alpha[0] = 1;
+            foo(alpha) = 1;
+        }
+        int foo(int a[]){
+            return a[0];
+        }
+        

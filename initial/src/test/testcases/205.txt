@@ -1,0 +1,10 @@
+
+        float math_score;
+        float math_score, phys_score, chem_score;
+        float math_score[5], phys_score, chem_score;
+        float math_score, phys_score[5], chem_score;
+        float math_score, phys_score, chem_score[5];
+        float math_score[5], phys_score[5], chem_score[5];
+        float average, average[3]
+        float average ;
+        

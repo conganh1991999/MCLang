@@ -1,0 +1,13 @@
+
+        int a;
+        int b;
+        void main(boolean c){
+            boolean d;
+            a = 1; b = 1; c = true; d = false;
+            a = a + b;
+            c = !c;
+            d = !c;
+            a = !a;
+            return ;
+        }
+        

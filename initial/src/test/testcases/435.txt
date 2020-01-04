@@ -1,0 +1,10 @@
+
+        int a; float b; boolean c;
+        void main(){
+            a = 1; b = 1.0; c = false;
+            c = !!!!!!!!!!!c;
+            a = -----------a;
+            b = -----------b;
+            c = -----------c;
+        }
+        

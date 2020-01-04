@@ -1,0 +1,14 @@
+
+        void main(){
+            foo();
+        }
+        int foo(){
+            {
+                {
+                    int a;
+                    a = 5;
+                    return a;
+                }
+            }
+        }
+        

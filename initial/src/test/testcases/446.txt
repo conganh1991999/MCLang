@@ -1,0 +1,7 @@
+
+        void main(int a, float b, boolean c, string d){
+            a = 1; b = 1.0;
+            d = "a % b";
+            c = b == a;
+        }
+        

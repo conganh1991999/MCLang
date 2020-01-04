@@ -1,0 +1,5 @@
+
+        int a;float b;
+        void printf(int a,float b,float c){putFloatLn(a/13+b+3-c/22*144);}
+        void main () {float c;a=1;b=2;c=3;printf(a,b,c);}
+        

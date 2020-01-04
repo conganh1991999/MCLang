@@ -1,0 +1,17 @@
+
+        void main(){
+            foo();
+        }
+        int foo(){
+            int i;
+            for(i = 0; i < 100; i = i + 1){
+                int j;
+                for(j = 0; j < i/2; j = j + 1){
+                    if(j % i == 0)
+                        return j;
+                    else
+                        continue;
+                }
+            }
+        }
+        

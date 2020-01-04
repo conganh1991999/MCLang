@@ -1,0 +1,28 @@
+
+        float a[5];
+        float print(float a[]){ putFloat(a[1]); return 1;}
+        boolean check(int a){a = 100; return true;}
+        void main () {
+            float b[2];
+            a = b;
+            b[1] = 10.22e12;
+            a[1]=1;
+            print(a);
+            {
+                int a[5];
+                a[1] = 10;
+                if(false||false&&true && 12<5325.2 || (check(a[1])!=false) ||(check(a[3])==true)) {}
+                putInt(a[1]);
+            }
+            {
+                int a;
+                float c;
+                int b;
+                b = 15111;
+                c=1;
+                -b;
+                a = -b;
+                putBool(!(a > -b||a == b+122|| false != false|| b+1>=123--a));
+            }
+        }
+        

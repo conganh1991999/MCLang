@@ -1,0 +1,8 @@
+
+        int a, b, c;
+        void foo(){}
+        int main(int a, boolean b, float c, string d){
+            foo();
+            return 1;
+        }
+        

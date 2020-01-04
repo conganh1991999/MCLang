@@ -1,0 +1,21 @@
+
+        void main () {
+            float a;
+            int c[10];
+            a = c[1] = 1;
+            c[2]= c[1] + 1;
+            if(c[1]>0.1){
+                int b;
+                if(c[2]<1){
+                int d;
+                putIntLn(c[1]);
+                }
+                else
+                    if(a<10 && a > 0) putBoolLn(true);
+                    else putBoolLn(false);
+                }
+            else{
+                putFloatLn(1000);
+            }
+        }
+        

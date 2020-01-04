@@ -1,0 +1,9 @@
+
+        void main(){
+            int a[10]; float b[10]; boolean c[10];
+            a[0] = 1; a[1] = 1; b[0] = 1.0; b[1] = 1.0; c[0] = true; c[1] = true;
+            b[0] = a[a[0]];
+            b[0] = b[a[0]];
+            c[0] = c[b[0]];
+        }
+        

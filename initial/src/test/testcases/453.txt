@@ -1,0 +1,24 @@
+
+        void main(){
+            int b[10]; b[0] = 1;
+            foo(b[0]);
+        }
+        int foo(int a){
+            float b[10]; b[0] = 1.0;
+            doo(b[0]);
+            return a;
+        }
+        float doo(float a){
+            boolean b[10]; b[0] = true;
+            boo(b[0]);
+            return a;
+        }
+        boolean boo(boolean a){
+            string b[10]; b[0] = "a"; b[1] = "b";
+            soo(b[0], b[1]);
+            return a;
+        }
+        string soo(string a){
+            return a;
+        }
+        

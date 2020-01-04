@@ -1,0 +1,11 @@
+
+        int foo(){ return 1; }
+        int foofoo(int a){ return a; }
+        void doo(int a[]){}
+        void main(){
+            int a[1]; a[0] = 10;
+            doo(a); // OK
+            a[1] = foofoo(foo()); // OK
+            doo(foo()); // error
+        }
+        

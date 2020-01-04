@@ -1,0 +1,17 @@
+
+        void main () {
+            int c[10];
+            c[2] = 100;
+            c[1] = 1;
+            do{
+                c[1] = c[1]+5;
+                if(c[2]<10) break;
+                do if(c[2]-3<10) {c[2]=1; continue;} c[2]=c[2]-2; while(c[2]>11);
+                {
+                    continue;
+                }
+                c[2]=c[2]-1;
+            } while(c[2] > 10);
+            putIntLn(c[2]);
+        }
+        

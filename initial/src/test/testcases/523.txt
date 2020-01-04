@@ -1,0 +1,1 @@
+void main () {int a[5];float b[10];boolean c[2]; a[1]=1; b[2]=22; c[1] = true; putFloatLn(b[2]);}

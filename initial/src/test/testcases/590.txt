@@ -1,0 +1,23 @@
+
+        boolean a[3];
+        float d[10];
+        float c;
+        void main () {
+            {
+                // start declaration part
+                int a ,b, c ;
+                float f[5];
+                int i;
+                //end declaration part
+                // start statement part
+                i = 5;
+                d[9]=d[8]=d[7]=d[6]=d[5]=a=b=2;
+                if(a==b) f[0]=1.0;
+                do{
+                    putFloat(d[i]);
+                    i=i+1;
+                } while(i<10);
+                //end statement part
+            }
+        }
+        

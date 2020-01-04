@@ -1,0 +1,14 @@
+
+        int pow(int num){
+            int exp;
+            exp = num * num;
+            return exp;
+        }
+        int main(){
+            int a; int b;
+            putInt(5);
+            a = getInt();
+            b = pow(a);
+            return b;
+        }
+        

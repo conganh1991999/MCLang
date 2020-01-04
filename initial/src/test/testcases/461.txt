@@ -1,0 +1,10 @@
+
+        int foo(){
+            return 1;
+        }
+        void main(){
+            int a;
+            a = foo();
+            a = foo[10];
+        }
+        

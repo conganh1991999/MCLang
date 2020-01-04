@@ -1,0 +1,11 @@
+
+        string a;
+        void main () {
+            string b[2];
+            int i;
+            for(i=0;i<2;i=i+1)
+                b[i] = "ABcdef";
+            a = b[1];
+            putStringLn(a);
+        }
+        

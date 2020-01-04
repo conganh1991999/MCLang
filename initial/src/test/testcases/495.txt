@@ -1,0 +1,14 @@
+
+        int main()
+        {
+            string s[5];
+            s[0] = "a"; s[1] = "a"; s[2] = "a"; s[3] = "a"; s[4] = "a";
+            int i;
+            putStringLn("Enter a string: ");
+            for(i = 0; s[i] != "a"; i = i + 1){
+                putString("Length of string: ");
+                putIntLn(i);
+            }
+            return 0;
+        }
+        

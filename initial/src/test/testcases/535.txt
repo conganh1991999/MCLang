@@ -1,0 +1,1 @@
+boolean a; void main () {float a;{int c; a=100;}{float d; a=20; } {float c;c=1;putFloatLn(a);}}

@@ -1,0 +1,20 @@
+
+        void print(int x,float y, boolean d){
+            float a;
+            int c[10];
+            y = a = c[1] = 1;
+            x = c[2]= c[1] + 1;
+            if(c[1]>0.1){
+                int b;
+                if(c[2]>1){
+                    int d;
+                    putIntLn(x);
+                }
+            }
+            else
+            {}
+        }
+        void main () {
+            print(1,2,true);
+        }
+        

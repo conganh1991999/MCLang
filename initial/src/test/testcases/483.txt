@@ -1,0 +1,8 @@
+
+        int a, b, c;
+        void main(){}
+        void foo(){ soo(); }
+        void boo(){}
+        void doo(){ boo(); }
+        void soo(){ foo(); }
+        

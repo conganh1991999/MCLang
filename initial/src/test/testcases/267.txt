@@ -1,0 +1,6 @@
+
+        int main(){
+            func();
+            func(()); //fail
+        }
+        

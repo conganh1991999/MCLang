@@ -1,0 +1,14 @@
+
+        int a;
+        float b[3];
+        int[] foo(int a, float b[]) {
+            a = 5;
+            int c[3];
+            if (a > 0)
+                foo(a-1, b);
+            return c;
+        }
+        void main(int a) {
+            float f;
+        }
+        

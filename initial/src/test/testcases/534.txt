@@ -1,0 +1,1 @@
+float a; void main () {int b; {int c; a=1;}{float d; a=100; } {putFloatLn(a);}}

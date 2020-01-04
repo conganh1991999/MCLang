@@ -1,0 +1,8 @@
+
+        int main(){
+            for ( i = 0; i < alpha; i = i + 1){}
+            for ( i; j; k) {}
+            for (i = 0 ; i < 10 ; i++) {}
+            return 0;
+        }
+        

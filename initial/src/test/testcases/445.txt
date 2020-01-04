@@ -1,0 +1,9 @@
+
+        void main(int a, float b, boolean c){
+            a = 1;
+            b = a;
+            b = b + a; b = b - a; b = b * a; b = b / a;
+            c = b > a; c = b < a; c = b >= a; c = b <= a;
+            b = b % a;
+        }
+        

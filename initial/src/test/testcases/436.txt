@@ -1,0 +1,8 @@
+
+        void main(){
+            string name;
+            name = "Nguyen Cong Anh";
+            putStringLn(name);
+            putString(-name);
+        }
+        

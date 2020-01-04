@@ -1,0 +1,1 @@
+void print(int a,boolean c){putBoolLn(c);} void main () {print(1,true);}

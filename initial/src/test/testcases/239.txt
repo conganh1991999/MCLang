@@ -1,0 +1,11 @@
+
+        void printNumbers() 
+        {
+            int n; n = 1;
+            label
+                printf("%d ",n); 
+                n++; 
+                if (n <= 10) 
+                    goto label;
+        }
+        

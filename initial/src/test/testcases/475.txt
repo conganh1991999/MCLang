@@ -1,0 +1,19 @@
+
+        void main(){
+            foo();
+        }
+        string foo(){
+            int a; a = 100;
+            int b; b = 3;
+            do {
+                int c;
+                c = a % b;
+                if(c == 1) {
+                    return "true";
+                }
+                else
+                    return "false";
+            }
+            while(b < 100);
+        }
+        

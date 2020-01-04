@@ -1,0 +1,20 @@
+
+        void main(){
+            foo();
+        }
+        int foo(){
+            int a; a = 100;
+            int b; b = 3;
+            do
+            a = a - 1;
+            b = b + 1;
+            {
+                {
+                    {
+                        return b - a;
+                    }
+                }
+            }
+            while(b < 100);
+        }
+        

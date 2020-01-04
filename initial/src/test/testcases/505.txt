@@ -1,0 +1,1 @@
+int a[5],b[2];string d[2]; float c; void main () {int a;{int b;} { float c;putIntLn(000);}}

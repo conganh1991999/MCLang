@@ -1,0 +1,11 @@
+
+        int a[10];
+        float c;
+        int[] print(int a[]){ a[2] = 1; return a;}
+        void main () {
+            int b[3];
+            a = print(print(print(b)));
+            a[1] = a[2]+100/10-10;
+            putBoolLn(!((a[1] > -b[1] && false != false)|| b[1]+1>=123--a[1]));
+        }
+        

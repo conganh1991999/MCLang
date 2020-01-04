@@ -1,0 +1,9 @@
+
+        int func(){ return 1; }
+        void main(int foo[]){
+            int a;
+            foo[10] = 1; foo[1] = 10;
+            a = foo[10];
+            a = foo[func()];
+        }
+        

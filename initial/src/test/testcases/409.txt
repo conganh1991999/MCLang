@@ -1,0 +1,16 @@
+
+        int a; int b;
+        int add(int a, int b){
+            return a + b;
+        }
+        int sub(int a, int b){
+            return a - b;
+        }
+        int main(){
+            int mul;
+            a = 5;
+            b = 10;
+            mul = add(a, b) * sub(a, b);
+            return mul;
+        }
+        

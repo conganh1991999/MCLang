@@ -1,0 +1,17 @@
+
+        int hcf(int n1, int n2)
+        {
+            if (n2 != 0)
+                return hcf(n2, n1 % n2);
+            else
+                return n1;
+        }
+        int main()
+        {
+            int result;
+            int n1; { int n2; }
+            n1 = 8; n2 = 73;
+            result = hcf(1, 2);
+            return 0;
+        }
+        

@@ -1,0 +1,6 @@
+
+        int mul; int div; int add;
+        void main(){}
+        void add(){}
+        int foo;
+        

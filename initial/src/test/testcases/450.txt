@@ -1,0 +1,15 @@
+
+        int a; float b; boolean c; string d;
+        void main(){
+            int a; float b; boolean c; string d;
+            a = 10; b = 10.0; c = true; d = "Nguyen Cong Anh has PPL average score = ";
+            foo(a, a, c, d);
+        }
+        void foo(int a, float b, boolean c, string d){
+            putString(d);
+            putFloat(b);
+            putString(" with final score = ");
+            putIntLn(a);
+            putBoolLn(c);
+        }
+        

@@ -1,0 +1,9 @@
+
+        int foo(int a, int b, int c){
+            return a + b % c;
+        }
+        void main(int a, int b){
+            a = 2; b = 3; c = 4;
+            foo(a, b, c);
+        }
+        

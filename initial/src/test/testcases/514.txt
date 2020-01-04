@@ -1,0 +1,1 @@
+void print(boolean c){putIntLn(5%10);} void main () {print(true);}

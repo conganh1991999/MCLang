@@ -1,0 +1,13 @@
+
+        void main(){
+            d_checker();
+            return ;
+        }
+        boolean[] s_checker(){
+            boolean bool_list[10];
+            return bool_list;
+        }
+        boolean[] d_checker(){
+            return s_checker();
+        }
+        

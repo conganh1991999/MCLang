@@ -1,0 +1,6 @@
+
+        void main(){
+            boolean i;
+            do {} while (i = true);
+        }
+        

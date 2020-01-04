@@ -1,0 +1,4 @@
+
+        int my_Arr[0], my_Arr[1], my_Arr[2];
+        int my_Arr[3] = {1, 2, 3};
+        

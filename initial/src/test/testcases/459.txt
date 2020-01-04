@@ -1,0 +1,8 @@
+
+        void foo(int a, float b, boolean c, string d){}
+        void main(){
+            int a[10]; float b[10]; boolean c[10]; string d[10];
+            a[0] = 1; b[0] = 1.0; c[0] = true;
+            foo(a[0], b[0], c[0], d);
+        }
+        

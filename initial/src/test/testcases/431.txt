@@ -1,0 +1,11 @@
+
+        int main(){
+            return foo(); // error
+        }
+        float foo(){
+            int a; float b;
+            a = 1;
+            b = 1.1;
+            return a; // OK
+        }
+        

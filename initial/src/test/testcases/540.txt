@@ -1,0 +1,10 @@
+
+        void print(float b) {putFloatLn(b);}
+        void get(int a[]){a[1]=1;}
+        void main () {
+            int c[10];
+            get(c);
+            c[2]=c[1]+124;
+            print(c[2]);
+        }
+        

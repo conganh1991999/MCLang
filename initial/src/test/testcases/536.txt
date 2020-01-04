@@ -1,0 +1,1 @@
+int a;float b; void main () {float c;a=1;b=2;c=3;putFloatLn(a/13+b+3-c/22*144);}

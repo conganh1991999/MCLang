@@ -1,0 +1,9 @@
+
+        int a[5];
+        void main () {
+            boolean a;
+            a=false;
+            true||false||true||(a=true);
+            putBool(a);
+        }
+        

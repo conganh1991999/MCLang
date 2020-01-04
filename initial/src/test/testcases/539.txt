@@ -1,0 +1,1 @@
+int a;void print(int a[]){putFloatLn(a[2]);} void main () {int c[10];c[2]=124; print(c);}

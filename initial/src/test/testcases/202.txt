@@ -1,0 +1,6 @@
+
+        int alpha;
+        int beta;
+        int alpha, beta, gama;
+        int ;
+        

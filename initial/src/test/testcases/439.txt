@@ -1,0 +1,10 @@
+
+        int a; int b;
+        void main(boolean c){
+            b = 1;
+            a = b; a = -b;
+            a = a + b; a = a - b; a = a * b; a = a / b; a = a % b;
+            c = a == b; c = a != b; c = a >= b; c = a <= b; c = a > b; c = a < b;
+            c = a + b;
+        }
+        

@@ -1,0 +1,6 @@
+
+        void main(int foo){
+            int a;
+            a = foo[10];
+        }
+        

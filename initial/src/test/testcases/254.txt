@@ -1,0 +1,6 @@
+
+        int main(){
+            (foo(1,2,3))[5]; //pass
+            int[5]; //fail
+        }
+        

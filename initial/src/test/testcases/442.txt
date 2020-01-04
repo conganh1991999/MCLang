@@ -1,0 +1,11 @@
+
+        int a; float b;
+        void main(boolean c, boolean d){
+            a = 1; b = 1; c = true; d = false;
+            c = ((c && d) != (c || d)) == c;
+            c = c = c = d;
+            c = c && d && c;
+            c = d || c || d;
+            b = a - c;
+        }
+        

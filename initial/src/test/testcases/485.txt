@@ -1,0 +1,15 @@
+
+        void main(){
+            int a; int b; int c;
+            int alpha[5]; int beta[5]; int gama[5];
+            a = b = c = 1;
+            alpha[2] = 3;
+            beta[1] = 2;
+            gama[0] = 1;
+            foo(alpha)[foo(beta)[foo(gama)[0]]] = 1;
+            (a + 1) = a + 1;
+        }
+        int[] foo(int a[]){
+            return a;
+        }
+        

@@ -1,0 +1,1 @@
+void main () {float a;boolean b;int c;c=10;{int c; c=1;}{int c;int b;float d; c=100; } {float c;c=1;putFloatLn(c);}}

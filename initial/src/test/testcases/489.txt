@@ -1,0 +1,21 @@
+
+        int i;
+        int foo(){
+            return 200;
+        }
+        void main (){
+            int main;
+            main = foo();
+            putIntLn(main);
+            {
+                int i;
+                int main;
+                int f;
+                main = f = i = 100;
+                putIntLn(i);
+                putIntLn(main);
+                putIntLn(f);
+            }
+            putIntLn(main);
+        }
+        

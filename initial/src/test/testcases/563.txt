@@ -1,0 +1,6 @@
+
+        float print(){return 2;}
+        void main () {
+            putFloatLn(print());
+        }
+        

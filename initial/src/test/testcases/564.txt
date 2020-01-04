@@ -1,0 +1,6 @@
+
+        boolean print(){return true;}
+        void main () {
+            putBoolLn(print());
+        }
+        

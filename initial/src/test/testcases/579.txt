@@ -1,0 +1,12 @@
+
+        int a;
+        float c;
+        void main () {
+            int b;
+            b = 15111;
+            c=1;
+            -b;
+            a = -b;
+            putBoolLn(!(a > -b||a == b+122|| false != false|| b+1>=123--a));
+        }
+        

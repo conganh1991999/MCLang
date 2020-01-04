@@ -1,0 +1,1 @@
+Type Mismatch In Expression: CallExpr(Id(foo),[ArrayCell(Id(a),IntLiteral(0)),ArrayCell(Id(b),IntLiteral(0)),ArrayCell(Id(c),IntLiteral(0)),Id(d)])

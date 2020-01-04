@@ -1,0 +1,15 @@
+
+        int foo(){
+            return 1;
+        }
+        void main(){
+            int a; float b;
+            a = foo();
+            b = doo();
+            return ;
+        }
+        float doo(){
+            foo = 1;
+            return 1.0;
+        }
+        

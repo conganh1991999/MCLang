@@ -1,0 +1,14 @@
+
+        int[] foo1(int a[]){ return a; }
+        float[] foo2(float b[]){ return b; }
+        boolean[] foo3(boolean c[]){ return c; }
+        string[] foo4(string d[]){ return d; }
+        void main(){
+            int a[5]; float b[5]; boolean c[5]; string d[5];
+            a[0] = 1; b[0] = 1.0; c[0] = true; d[0] = "a";
+            foo1(a)[0] = a[0];
+            foo2(b)[0] = b[0];
+            foo3(c)[0] = c[0];
+            foo1(a)[0] = d[0];
+        }
+        

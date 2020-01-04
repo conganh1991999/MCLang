@@ -1,0 +1,16 @@
+
+        int a[5];
+        int put(int a){return a;}
+        void main () {
+            int i;
+            int b[2];
+            b[1]=1;
+            b[1];
+            put(b[1]);
+            putInt(put(b[1]));
+            for(i=0;i<2;i=i+1)
+                b[i] = i;
+            a[3] = put(b[1]);
+            putInt(a[3]);
+        }
+        

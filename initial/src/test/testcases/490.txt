@@ -1,0 +1,11 @@
+
+        int main()
+        {
+            float firstNumber, secondNumber, product;
+            firstNumber = 90e-1;
+            secondNumber = 85e-1;
+            product = firstNumber * secondNumber;
+            printf("Product = %.2lf\n", product);
+            return 0;
+        }
+        

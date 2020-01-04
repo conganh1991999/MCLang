@@ -1,0 +1,11 @@
+
+        void foo(int a[], float b[], boolean c[], string d[]){}
+        int[] foo1(int a[]){ return a; }
+        float[] foo2(float b[]){ return b; }
+        boolean[] foo3(boolean c[]){ return c; }
+        string[] foo4(string d[]){ return d; }
+        void main(){
+            int a[10]; float b[10]; boolean c[10]; string d[10];
+            foo(foo1(a), foo2(b), foo3(c), foo4(d));
+        }
+        

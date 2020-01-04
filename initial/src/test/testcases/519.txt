@@ -1,0 +1,1 @@
+void checkBool(boolean a,boolean b){putBoolLn(a!=b);}void main () {checkBool(true,false);}

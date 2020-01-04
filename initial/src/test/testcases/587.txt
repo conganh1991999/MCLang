@@ -1,0 +1,16 @@
+
+        float a[3];
+        float c;
+        void main () {
+            float b[3];
+            int i;
+            c = 1000;
+            for(i=0;i<3;i=i+1)
+                b[i]=c+30-12/424*545--5325+-1+10.e32+-10E12;
+            for(i=0;i<3;i=i+1)
+                a[i]=b[i]+10000;
+            for(i=0;i<3;i=i+1){
+                putFloat(a[i]+b[i]);
+            }
+        }
+        

@@ -1,0 +1,14 @@
+
+        void main(){
+            int_pointer();
+            float_pointer();
+        }
+        int[] int_pointer(){
+            int a[5]; float b[5];
+            return a; // OK
+        }
+        float[] float_pointer(){
+            int a[5]; float b[5];
+            return b; // OK
+        }
+        

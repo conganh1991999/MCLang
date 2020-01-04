@@ -1,0 +1,14 @@
+
+        int i;
+        void main(){
+            float max;
+            max = 100;
+            for (i = 0; i < max; i = i + 1){
+                if(i == 100){
+                    float precision;
+                    precision = max - i;
+                    do {putFloatLn(precision);} while(false);
+                }
+            }
+        }
+        

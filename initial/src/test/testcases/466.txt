@@ -1,0 +1,11 @@
+
+        int[] foo(int a[]){ return a; }
+        void main(){
+            int a[5]; float b[5]; boolean c[5]; string d[5];
+            a[0] = 1; a[1] = 1; b[0] = 1.0; b[1] = 1.0; c[0] = true; c[1] = true; d[0] = "a"; d[1] = "a";
+            a[0] = a[foo(a)[0]];
+            b[0] = b[foo(a)[0]];
+            c[0] = c[foo(a)[0]];
+            d[0] = d[foo(a)[0]];
+        }
+        

@@ -1,0 +1,12 @@
+
+        void main(){
+            int a; float b; boolean c;
+            int alpha[5]; float beta[5]; boolean theta[5];
+            alpha[0] = 1; beta[0] = 1.0; theta[0] = true;
+            a = -alpha[0];
+            b = -beta[0];
+            b = -alpha[0];
+            c = !theta[0];
+            a = !alpha[0];
+        }
+        

@@ -1,0 +1,22 @@
+
+        void main(){
+            for(changeA = 0; changeA < MATRIX/n_pros; changeA = changeA + 1)
+            {
+                for(i = 0; i < MATRIX; i = i + 1)
+                {
+                    matA[i] = rand() % 2;
+                }
+                for(changeB = 0; changeB < MATRIX; changeB = changeB +1)
+                {
+                    for(j = 0; j < MATRIX; j = j + 1){
+                        matB[j] = rand() % 2;
+                    }
+                    tem_val = 0;
+                    for(offset = 0; offset < MATRIX; offset = offset + 1){
+                        tem_val = tem_val + matA[offset] * matB[offset];
+                    }
+                }
+            }
+            return;
+        }
+        

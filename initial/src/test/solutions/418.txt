@@ -1,0 +1,1 @@
+Type Mismatch In Statement: If(BinaryOp(+,Id(i),IntLiteral(10)),CallExpr(Id(putString),[StringLiteral(i < 10)]))

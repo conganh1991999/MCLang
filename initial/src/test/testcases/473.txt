@@ -1,0 +1,26 @@
+
+        void main(){
+            foo();
+        }
+        int foo(){
+            int a; a = 100;
+            if(a < 100){
+                if(a < 50){
+                    return a;
+                }
+                else {
+                    a = 50;
+                    return a;
+                }
+            }
+            else{
+                if(a > 150){
+                    return a;
+                }
+                else {
+                    a = 150;
+                    return a;
+                }
+            }
+        }
+        

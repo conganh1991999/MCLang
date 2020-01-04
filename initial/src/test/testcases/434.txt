@@ -1,0 +1,14 @@
+
+        int a; float b;
+        int foo(){
+            return 1;
+        }
+        boolean boo(){
+            return true;
+        }
+        void main(boolean c){
+            a = 2;
+            b = -(foo() + a);
+            c = -boo();
+        }
+        

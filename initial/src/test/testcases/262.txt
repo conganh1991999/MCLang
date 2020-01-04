@@ -1,0 +1,7 @@
+
+        int main(){
+            arr[arr[5]]; //pass
+            arr1[arr2[arr3[5]]]; //pass
+            arr[arr[[5]]]; //fail
+        }
+        

@@ -1,0 +1,1 @@
+void print(float a){putFloatLn(a);} void main () {float a;int b[4]; print(a=b[3]=100);}

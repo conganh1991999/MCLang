@@ -1,0 +1,14 @@
+
+        int a; float b;
+        void main(boolean c[], string d[]){
+            int a[5];
+            a[0] = 1; a[1] = 1; a[2] = 1; a[3] = 1; a[4] = 1;
+            float b[5];
+            c[0] = true; c[1] = true; c[2] = true; c[3] = true; c[4] = true;
+            d[0] = "a"; d[1] = "a";
+            b[0] = a[0] = a[1] + a[2] + a[3] + a[4];
+            c[0] = c[1] && c[2] && c[3] && c[4];
+            d[0] = d[1];
+            a[0] = b[0];
+        }
+        

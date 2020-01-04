@@ -1,0 +1,10 @@
+
+        float[] print(float a[]){return a;}
+        void main () {
+            float a[10];
+            a[5]=100;
+            {
+                putFloatLn(print(a)[5]);
+            }
+        }
+        

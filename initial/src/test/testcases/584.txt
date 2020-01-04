@@ -1,0 +1,14 @@
+
+        int a[3];
+        float c;
+        int print(int a){ a = 1; return a;}
+        void main () {
+            int b[3];
+            int i;
+            for(i=0;i<3;i=i+1)
+                print(print(print(b[i])));
+            a = b;
+            a[1] = a[2]+100/10-10;
+            putBoolLn(!(a[1] > -b[1]));
+        }
+        

@@ -1,0 +1,9 @@
+
+        void main () {
+            string b[5];
+            int i;
+            for(i=0;i<2;i=i+1)
+                b[4] = "ABcdef";
+            putStringLn(b[4]);
+        }
+        

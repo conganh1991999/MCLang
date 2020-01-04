@@ -1,0 +1,8 @@
+
+        int main(int a, int b, int a){
+            int local;
+            putInt(5);
+            local = getInt();
+            return local;
+        }
+        

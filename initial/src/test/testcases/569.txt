@@ -1,0 +1,14 @@
+
+        float print(float a[]){ return a[5];}
+        void main () {
+            float a[10];
+            int i;
+            for(i=0;i<10;i=i+1)
+            {
+                a[i] = i;
+            }
+            {
+                putFloatLn(print(a));
+            }
+        }
+        

@@ -1,0 +1,12 @@
+
+        boolean a[3];
+        float c;
+        void main () {
+            {
+                boolean b; // local boolean variable
+                int i ; // local int variable
+                i =3;
+                if (i >0) putInt(i);
+            }
+        }
+        

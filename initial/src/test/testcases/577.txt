@@ -1,0 +1,7 @@
+
+        int a;
+        void main () {
+            a = 1525;
+            putIntLn(-a);
+        }
+        

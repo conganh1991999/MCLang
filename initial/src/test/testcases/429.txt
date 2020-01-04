@@ -1,0 +1,18 @@
+
+        void main(){
+            int a[5];
+            float b[5];
+            int_pointer(a, b);
+            float_pointer_1(a, b);
+            float_pointer_2(a, b);
+        }
+        int[] int_pointer(int a[], float b[]){
+            return a; // OK
+        }
+        float[] float_pointer_1(int a[], float b[]){
+            return b; // OK
+        }
+        float[] float_pointer_2(int a[], float b[]){
+            return a; // error
+        }
+        

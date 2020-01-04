@@ -1,0 +1,1 @@
+void main () {float a;boolean b;b=false; putBoolLn(b&&true&&b);}

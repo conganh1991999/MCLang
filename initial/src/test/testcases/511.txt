@@ -1,0 +1,1 @@
+void print(int a,float c){putIntLn(a);} void main () {print(1,2.5);}

@@ -1,0 +1,18 @@
+
+        int a; float b; boolean c;
+        void main(){
+            a = 1; b = 1.0; c = false;
+            c = boo();
+            b = a + b + foo() + doo();
+            b = foo() + boo() + doo();
+        }
+        int foo(){
+            return 1;
+        }
+        float doo(){
+            return 1.0;
+        }
+        boolean boo(){
+            return true;
+        }
+        
