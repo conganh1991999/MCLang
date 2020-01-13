@@ -1,1 +1,1 @@
-# MCLang
+# MC Programming Language
